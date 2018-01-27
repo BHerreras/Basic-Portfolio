@@ -1,0 +1,128 @@
+
+header{
+	box-sizing: border-box;
+	position: absolute;
+    top: 0;
+	background: white;
+	width:100%;
+	height: 92px;
+	border-bottom: 2px solid #CCCCCC;
+	
+}
+
+h1 {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	float: left;
+	margin-top: 0;
+	height: 90px;
+	width: 235px;
+	text-align: center;
+	font-size: 30px;
+  color: white;
+  background: #4AAAA5;
+	margin-left: 150px;
+	padding-top: 25px;
+}
+h2 {
+	float: right;
+	font-size: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding-right: 200px;
+	padding-top: 15px;
+	color:#9999AC;
+	
+
+}
+body{
+	background: #EFEFEF;
+}
+
+div{
+	box-sizing: border-box;
+	postion: absolute;
+	background: white;
+	margin: 50px 600px 50px 80px;	
+}
+
+.container{
+	box-sizing: border-box;
+	postion: absolute;
+	background: white;
+	color:#777777;
+	font-size: 20px;
+	margin: 30px 500px 30px 80px;
+	padding-left: 50px;
+ 
+}
+
+.placeholder{
+	float: left;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: auto;
+}
+h3{
+	font-size: 30px;
+	color: #4AAAA5;
+	border-bottom: 4px solid #DDDDDD;
+	margin: 0 35px 15px 35px;
+	padding:30px 0 25px;
+
+}
+h4{	font-size: 30px;
+	color: #4AAAA5;
+	border-bottom: 4px solid #DDDDDD;
+	margin: 0 70px 15px 3px;
+	padding:30px 0 25px;
+}
+
+p{
+	color: #837B77;
+	font-size: 18px;
+	line-height: 27px;
+}
+input[type=text]{
+    width: 90%;
+    padding: 5px 20px;
+    margin: 5px 0 0 0;
+    box-sizing: border-box;
+    color: #A9A9A9;
+	border: 1px solid #DDDDDD;
+	height: 35px;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+	  margin: 5px 0 0 0;
+    box-sizing: border-box;
+	  border: 1px solid #DDDDDD;
+
+}
+input[type=submit]{
+	background: #4AAAA5;
+	border:2px solid #4AAAA5;
+	color: white;
+	font-size:18px;
+	width: 100px;
+	height: 50px;
+	padding-bottom:10px;
+	
+}
+
+footer{
+	box-sizing: border-box;
+	position:absolute;
+    bottom:0;
+	width: 100%;
+	height:60px;
+	text-align: center;
+	font-size: 10px;
+	padding: 40px;
+    color: #CCCCCC;
+    background: #666666;
+	border-top: 6px solid #4AAAA5

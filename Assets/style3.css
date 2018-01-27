@@ -1,0 +1,73 @@
+
+header{
+	box-sizing: border-box;
+	position: absolute;
+    top: 0;
+	background: white;
+	width:100%;
+	height: 92px;
+	border-bottom: 2px solid #CCCCCC
+}
+
+h1 {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	float: left;
+	margin-top: 0;
+	height: 90px;
+	width: 235px;
+	text-align: center;
+	font-size: 30px;
+  color: white;
+    background: #4AAAA5;
+	margin-left: 150px;
+	padding-top: 25px
+	
+}
+h2 {
+	float: right;
+	font-size: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding-right: 200px;
+	padding-top: 15px;
+	color:#9999AC;
+	
+
+}
+body{
+	background: #EFEFEF;
+
+}
+h3{
+	font-size: 30px;
+	color: #4AAAA5;
+	border-bottom: 4px solid #DDDDDD;
+	margin: 0 35px 15px 35px;
+	padding:30px 0 25px;
+
+}
+.contact-info {
+    width: 270px;
+    height: 150px;
+    margin: 20px 0;
+    border: 1px solid #dddddd;
+    float:right;
+    background-color: white
+
+}
+
+
+footer {
+	box-sizing: border-box;
+	position:absolute;
+    bottom:0;
+	width: 100%;
+	height:60px;
+	text-align: center;
+	font-size: 10px;
+	padding: 40px;
+    color: #CCCCCC;
+    background: #666666;
+	border-top: 6px solid #4AAAA5
+}
